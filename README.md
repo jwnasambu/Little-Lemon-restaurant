@@ -7,4 +7,4 @@ In terms of styling, you should use your creativity to create the appropriate lo
 More detailed criteria are covered in the Grading Criteria Overview below. 
 
 To choose a client, read more about the four fictional clients in the 
-Subject 
+Subject https://www.coursera.org/learn/html-and-css-in-depth/supplement/bpM1T/subject-selectionelection
