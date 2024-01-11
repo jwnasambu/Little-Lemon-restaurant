@@ -1,0 +1,140 @@
+* {
+    margin: 20px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 2rem;
+    background-color: azure;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+header img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    font-size: 1.1rem;
+}
+
+.navbar ul li a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    position: relative;
+    height: 300px;
+}
+
+.discount-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.banner img {
+    width: 1100px;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns-container {
+    display: flex;
+}
+
+.columns {
+    flex: 1;
+    margin: 10px;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.footer-column img {
+    max-width: 5%;
+    height: auto;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: rgb(226, 241, 220);
+}
