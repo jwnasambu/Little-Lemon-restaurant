@@ -8,3 +8,5 @@ More detailed criteria are covered in the Grading Criteria Overview below.
 
 To choose a client, read more about the four fictional clients in the 
 Subject https://www.coursera.org/learn/html-and-css-in-depth/supplement/bpM1T/subject-selectionelection
+
+**The is the outputlink **: https://659fea609fb1c70fd2321c8e--incomparable-gingersnap-6bbd42.netlify.app/
